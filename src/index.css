@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* cursor: none !important; */
+
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* Font Family */
+font{
+  font-family: "'Public Sans', sans-serif";
+  font-family: "Prompt", sans-serif;
+}
+
+/* Blogs scroll */
+
+#filled-select-currency-native {
+  color:white;
+}
+
+.scrol ::-webkit-scrollbar {
+  width: 0px;
+  height: 0px; 
+}
+
+
+.scrol{
+  scrollbar-width: none; 
+  scrollbar-color: #a7a7a7 #f1f1f1; 
+}
+
+.scrol ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+.scrol ::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+
+.scrol ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* Header TextField */
+.css-1cssxvb-MuiSvgIcon-root-MuiNativeSelect-icon{
+  color:"white" !important;
+}
+.css-1cssxvb-MuiSvgIcon-root-MuiNativeSelect-icon{
+  background-color: #21324d92;
+}
+
+@media (min-width: 600px) {
+  .css-hhdjsd-MuiContainer-root {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      /* background-color: #21324d9f; */
+  }
+}
+
+
+/* Home Back */
+
+#back-to-top{
+  animation: backtotop 2s infinite;
+}
+
+@keyframes backtotop {
+0% {
+  bottom: 45px;
+}
+50%{
+  bottom: 30px;
+}
+100%{
+  bottom: 45px;
+}
+}
+
+.css-1xomo8h-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  background-color: #21324D;
+}
+.css-1ykbrcc-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding-left: 9px !important;
+  padding-bottom: 5px !important;
+  padding-top: 5px !important;
+}
+.css-2anpn7-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-popupIndicator {
+  color: white !important;
+}
+.css-1pkh4lu-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-clearIndicator {
+  color: white !important;
+}
+
+::-webkit-scrollbar {
+  width:5px; /* Width of the scrollbar */
+}
+/* For the track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background-color: #ffffffb5; /* Color of the scrollbar track */
+  /* Optional: rounded corners */
+}
+/* For the handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #E13E26; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+/* On hover, change the color of the handle */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #E13E26; /* Darker shade for hover effect */
+}
+
+.gsap-marker-start,
+.gsap-marker-end {
+  display: none !important;
+}
